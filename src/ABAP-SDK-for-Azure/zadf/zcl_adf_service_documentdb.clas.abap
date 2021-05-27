@@ -1,0 +1,16 @@
+CLASS zcl_adf_service_documentdb DEFINITION
+  PUBLIC
+  INHERITING FROM zcl_adf_service
+  FINAL
+  CREATE PRIVATE
+  GLOBAL FRIENDS zcl_adf_service_factory.
+
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_adf_service_documentdb IMPLEMENTATION.
+ENDCLASS.

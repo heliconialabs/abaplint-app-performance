@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSY_XTT</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages for XTT</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1&amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Error in the template</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Unknown type &apos;&amp;1&apos; for &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>---</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp;1 is reference to nowhere</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>---</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Too long formula &amp;1&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Could not find the &apos;&amp;1&apos; file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No body tag &apos;&amp;1&apos; in a template</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Wrong bounds for &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No row tag &apos;&amp;1&apos; for &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Overlap in bounds of &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>No &apos;&amp;1&apos; match in the template for &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 chars were skipped within block &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Implicit type &apos;mask&apos; in field &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Unknown function &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Field &apos;&amp;1&apos; declared several times</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Key: &apos;&amp;1&apos; is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Field &apos;&amp;1&apos; is not table!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Severe error in the &apos;&amp;1&apos; scope</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Wrong offset &amp;1 in the &apos;&amp;2&apos; field</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Field &apos;&amp;1&apos; already declared in code. Use another name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>No &apos;&amp;1&apos; field in the structure &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>No curly braces for field &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error in &apos;;COND=&apos; expression near &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>An exception was caught during cond calculation &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Cell in &apos;&amp;1&apos; row is corrupted</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>R</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>R</SPRSL>
+     <ARBGB>ZSY_XTT</ARBGB>
+     <STEXT>Сообщения в XML Toolkit</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1&amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ошибка в шаблоне</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Неизвестный тип &amp;1 для &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>&amp;1 ошибка интерпретации</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp;1 - ссылка в никуда</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Неправильный индекс колонки &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Слишком длинная формула &amp;1&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Не удалось найти файл &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>В шаблоне нет тега BODY &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Неправильные границы для &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Нет тега строки &apos;&amp;1&apos; для &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Пересечение границ в &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Нет совпадений &quot;&amp;1&quot; в шаблоне &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 символов было пропущено в блоке &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Неявный тип &apos;mask&apos; в поле &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Неизвестная функция &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Поле &apos;&amp; 1&apos; объявлено несколько раз</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Ключ: &apos;&amp;1&apos; неизвестен</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Поле &apos;&amp;1&apos; не является таблицей!</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Серьезная ошибка в области &apos;&amp;1&apos; (scope)</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Неправильное смещение &amp;1 в поле &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Поле &apos;&amp;1&apos; уже объявлено в коде. Использовать другое имя</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Нет поля &apos;&amp;1&apos; в структуре &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Никаких фигурных скобок для поля &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Ошибка в выражении &apos;;COND =&apos; рядом с &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Во время вычисления cond &apos;&amp;1&apos; обнаружено исключение</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Ячейка в строке &apos;&amp;1&apos; повреждена</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

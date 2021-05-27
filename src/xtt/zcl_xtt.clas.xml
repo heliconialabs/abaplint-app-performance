@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_XTT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Base class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>PRL</KEY>
+     <ENTRY>Please read logs for finding issues</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>ADD_LOG_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add warning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>ADD_RAW_EVENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>For archive files more event to update XML files in zip</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>DOWNLOAD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Download to frontend</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>GET_RAW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>File content (for archive files a ZIP archive)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>MERGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Merge data with template</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>MO_DEBUG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Export|Import report info</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>MT_RAW_EVENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Additional paths in archive</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>ON_MATCH_FOUND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Call back for Replace-&gt;FIND_MATCH</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>PREPARE_RAW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Use for XML parsing (In the end of GET_RAW)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>RAISE_RAW_EVENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Before the main event</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>SEND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Send to email OR sap user</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>SHOW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Show inplace (@see PBO and PAI events)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>TS_RECIPIENT_BCS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CL_BCS-&gt;ADD_RECIPIENT parameters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>TT_RECIPIENTS_BCS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CL_BCS-&gt;ADD_RECIPIENT parameters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT</CLSNAME>
+     <CMPNAME>_LOGGER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logger</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
