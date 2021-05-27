@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Selection Screen Util for query</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Query</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Define Jumps</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Copy Query</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Download Query to PC</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Delete Query</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Query Name</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Parameters</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>Change Custom Query</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>Create Custom Query</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Import Queries</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>COPY_QUERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Copies the query</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>CREATE_SQL_QUERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new SQL Query</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>DELETE_QUERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete the query</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>DOWNLOAD_QUERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Export query to file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>EDIT_SQL_QUERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Edit the current sql query</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>FILL_QUERY_PARAMETERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create fields for query parameters in tabfield list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>LOAD_CUSTOM_QUERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Loads a custom query</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>LOAD_STANDARD_QUERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Loads a standard query</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>MAINTAIN_JUMPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maintain jump definitions of query</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBBR_QUERY_SELSCREEN_UTIL</CLSNAME>
+     <CMPNAME>MV_QUERY_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of query</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

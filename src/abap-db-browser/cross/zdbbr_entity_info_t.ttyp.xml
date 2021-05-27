@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>ZDBBR_ENTITY_INFO_T</TYPENAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <ROWTYPE>ZDBBR_ENTITY_INFO</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>D</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <KEYFDCOUNT>0001</KEYFDCOUNT>
+    <DDTEXT>List of Entity infos</DDTEXT>
+   </DD40V>
+   <DD42V>
+    <DD42V>
+     <TYPENAME>ZDBBR_ENTITY_INFO_T</TYPENAME>
+     <SECKEYNAME>ALIAS</SECKEYNAME>
+     <KEYFDPOS>0001</KEYFDPOS>
+     <ROWTYPEPOS>0003</ROWTYPEPOS>
+     <KEYFIELD>TABNAME_ALIAS</KEYFIELD>
+    </DD42V>
+   </DD42V>
+   <DD43V>
+    <DD43V>
+     <TYPENAME>ZDBBR_ENTITY_INFO_T</TYPENAME>
+     <SECKEYNAME>ALIAS</SECKEYNAME>
+     <SECKEYUNIQUE>X</SECKEYUNIQUE>
+     <ACCESSMODE>H</ACCESSMODE>
+     <KIND>K</KIND>
+    </DD43V>
+   </DD43V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
