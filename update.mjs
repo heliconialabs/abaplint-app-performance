@@ -10,6 +10,10 @@ const repos = [
   {owner: "pixelbaker", repo: "ABAP-RayTracer", folder: "src", license: "/LICENSE"},
   {owner: "rayatus", repo: "sapbugtracker", folder: "zbugtracker_core", license: "/LICENSE"},
   {owner: "watson-developer-cloud", repo: "abap-sdk-nwas", folder: "src", license: "/LICENSE"},
+  {owner: "nomssi", repo: "abap_scheme", folder: "src", license: "/LICENSE"},
+  {owner: "bizhuka", repo: "xtt", folder: "src", license: "/LICENSE"},
+  {owner: "sapmentors", repo: "abap2xlsx", folder: "src", license: "/LICENSE"},
+  {owner: "microsoft", repo: "ABAP-SDK-for-Azure", folder: "src", license: "/LICENSE"},
 ];
 
 for (const r of repos) {

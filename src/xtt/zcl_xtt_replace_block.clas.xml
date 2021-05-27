@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Description of one replacement action</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>FIND_MATCH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Try to find all occurances of block_begin in text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>GET_AS_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get field as a string when a number takes exactly whole cell</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>MT_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fields description.     What will replace in template</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>MV_SUB_OFFSET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>For child names</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>PREPARE_TREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Preape 1 item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>REUSE_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure based tables can reuse instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>TREE_CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Group by fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>TREE_CREATE_RELAT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Group by relation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XTT_REPLACE_BLOCK</CLSNAME>
+     <CMPNAME>TREE_RAISE_PREPARE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Event PREPARE_TREE used as callback</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
