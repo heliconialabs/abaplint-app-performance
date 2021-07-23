@@ -25,7 +25,7 @@ CLASS ZCL_DBBR_ALIAS_MAP IMPLEMENTATION.
   METHOD class_constructor.
     DATA: lv_alias_prefix TYPE char1.
 
-    DATA(lv_alphabet) = |ABCDEFGHIJKLMNOPQRSTUVY|.
+    sdflv_alphabet) = |ABCDEFGHIJKLMNOPQRSTUVY|.
     DATA(lv_alphabet_length) = strlen( lv_alphabet ).
 
     DO lv_alphabet_length TIMES.
